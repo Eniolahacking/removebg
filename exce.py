@@ -9,7 +9,6 @@ Osize=input('x as width eg 300')
 Wsize=y=input('y as height eg 100')
 try:
 	fil=ao.resize((Osize,Wsizr),Image.ANTIALIAS)
-print(fore.YELLOW+'IN PROGRESS PLEASE WAIT')
 loc=input(fore.BLUE+f'where to save the image if \nit was jpg or png you want to save it input remember to put r')
 fil.save(loc,quality=95)
 Except :
