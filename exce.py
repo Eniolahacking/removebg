@@ -9,10 +9,10 @@ Osize=input('x as width eg 300')
 Wsize=y=input('y as height eg 100')
 try:
 	fil=ao.resize((Osize,Wsizr),Image.ANTIALIAS)
-loc=input(fore.BLUE+f'where to save the image if \nit was jpg or png you want to save it input remember to put r')
+loc=input(fore.BLUE+'where to save the image if \nit was jpg or png you want to save it input remember to put r')
 fil.save(loc,quality=95)
 Except :
-	print(f'was not found',y+fore.RED)
+	print('was not found',y+fore.RED)
 	finally:
 		print('finished')
 		ao.close()
