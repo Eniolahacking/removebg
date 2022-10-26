@@ -2,7 +2,7 @@ import mechanize
 import sys
 import cookielib
 browser=mechanize.Browser()
-url='http://www.recruitment.psc.gov.ng'
+url=input('input url eg http://www.recruitment.psc.gov.ng')
 proxy={'http':'128:090:484:839'}
 cookioejar=cookielib.LWPCookieJar()
 browser.set_proxies(proxy)
