@@ -1,4 +1,4 @@
-import pywhatkit,is,sys
+import pywhatkit,os,sys
 is.system('git pull')
 is.system('clear')
 You=input('inlut any message delivered in 1 min')
