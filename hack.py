@@ -21,8 +21,8 @@ class you:
         you(logo)
     print('1. FOLLOW OUR FACEBOOK PAGE ')
     print('2. EXIST')
-    op=input("")
-if op=='1':
+    opop=input("")
+if opop =='1':
     os.system('xdg-open ')
     youo()
 else:
@@ -40,13 +40,13 @@ def rom():
     print('2. fb group')
     print('contact me fb')
     yo=input('chose an option:')
-    if yo==1:
+    if yo ==1:
         i()
-    elif yo==2:
+    elif yo ==2:
         print('xdg-open ')
         ud()
       
-    elif yo=='':
+    elif yo =='':
         print('invalid option please ener')
         ud()
     else:
