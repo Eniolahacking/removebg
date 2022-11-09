@@ -25,7 +25,7 @@ if op==1:
     os.system('xdg-open ')
     youo()
 else:
-    return None
+    rom()
 def youo():
     
     print(logo)
