@@ -16,12 +16,13 @@ class you:
         pass
     logo=''
     def main():
+        os.system('clear')
    
         you(logo)
     print('1. FOLLOW OUR FACEBOOK PAGE ')
     print('2. EXIST')
     op=input("")
-if op==1:
+if op=='1':
     os.system('xdg-open ')
     youo()
 else:
