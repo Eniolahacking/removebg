@@ -21,8 +21,8 @@ class you:
         you(logo)
     print('1. FOLLOW OUR FACEBOOK PAGE ')
     print('2. EXIST')
-    opop=input("")
-if opop =='1':
+    opop=input()
+if opop ==1:
     os.system('xdg-open ')
     youo()
 else:
