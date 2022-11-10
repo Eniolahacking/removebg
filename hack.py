@@ -23,7 +23,7 @@ class you:
     print('2. EXIST')
     opop=input()
 if opop ==1:
-    os.system('xdg-open ')
+    #os.system('xdg-open ')
     youo()
 else:
     rom()
