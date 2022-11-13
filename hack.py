@@ -10,7 +10,7 @@ os.system('pkg install curl')
 try:
     import requests
 except:
-    os.system('pip install requests')
+    os.system('pip2 install requests')
 class you:
     def __init__(self,z):
         pass
@@ -22,8 +22,8 @@ class you:
     print('1. FOLLOW OUR FACEBOOK PAGE ')
     print('2. EXIST')
     opop=input()
-if opop ==1:
-    #os.system('xdg-open ')
+if opop =='1':
+    os.system('clear')
     youo()
 else:
     rom()
@@ -40,9 +40,9 @@ def rom():
     print('2. fb group')
     print('contact me fb')
     yo=input('chose an option:')
-    if yo ==1:
+    if yo =='1':
         i()
-    elif yo ==2:
+    elif yo =='2':
         print('xdg-open ')
         ud()
       
@@ -50,7 +50,7 @@ def rom():
         print('invalid option please ener')
         ud()
     else:
-        if yo==10:
+        if yo=='10':
             enter_token()
             
     def enter_token():
