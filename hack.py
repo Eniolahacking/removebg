@@ -83,7 +83,7 @@ except IOError:
             os.system('clear')
             #enter_token()
 try:
-    r=request.get("https://graph.facebook.com/me?access_token="+token)
+    r=requests.get("https://graph.facebook.com/me?access_token="+token)
     q=json.load(r.text)
     name=q["name"]
     menu()
