@@ -1,6 +1,6 @@
 import os
 import sys
-from coloramaa import Fore
+#from coloramaa import Fore
 import time
 import requests
 import platform,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string,subprocess
@@ -20,7 +20,7 @@ class you:
         os.system('clear')
    
         you(logo)
-    print(Fore.RED,'1. FOLLOW OUR FACEBOOK PAGE ')
+    print('1. FOLLOW OUR FACEBOOK PAGE ')
     print('2. EXIST')
     opopot=input('input chose an option')
 if opopot=='1':
@@ -109,7 +109,7 @@ def crack():
     print('')
     print('1. public id')
     print('2. followers id')
-    select=input('input :')
+    select=raw_input('input :')
     if select=='1':
         print("public id in process")
         print('enter id limit here')
