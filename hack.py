@@ -25,7 +25,7 @@ class you:
     opopot=input('input chose an option')
 if opopot=='1':
     os.system('clear')
-    youo()
+    rom()
 else:
     rom()
 def youo():
