@@ -20,18 +20,18 @@ class you:
         os.system('clear')
    
         you(logo)
-    print('1. FOLLOW OUR FACEBOOK PAGE ')
-    print('2. EXIST')
-    opopot=input('input chose an option')
-if opopot=='1':
+   # print('1. FOLLOW OUR FACEBOOK PAGE ')
+   # print('2. EXIST')
+    #opopot=input('input chose an option')
+#if opopot=='1':
     os.system('clear')
     rom()
-else:
+#else:
     rom()
 def youo():
     
     print(logo)
-    
+    rom()
 def rom():
     os.system('clear')
     you(logo)
