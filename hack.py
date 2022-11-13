@@ -1,5 +1,6 @@
 import os
 import sys
+from coloramaa import Fore
 import time
 import requests
 import platform,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string,subprocess
@@ -19,10 +20,10 @@ class you:
         os.system('clear')
    
         you(logo)
-    print('1. FOLLOW OUR FACEBOOK PAGE ')
+    print(Fore.RED,'1. FOLLOW OUR FACEBOOK PAGE ')
     print('2. EXIST')
-    opop=input()
-if opop =='1':
+    opopot=input('input chose an option')
+if opopot=='1':
     os.system('clear')
     youo()
 else:
