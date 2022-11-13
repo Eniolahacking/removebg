@@ -31,7 +31,7 @@ class you:
 def youo():
     
     print(logo)
-    rom()
+    
 def rom():
     os.system('clear')
     you(logo)
