@@ -81,7 +81,7 @@ except IOError:
             print('soory please try inputing agian')
             time.sleep(5.00)
             os.system('clear')
-            enter_token()
+            #enter_token()
 try:
     r=request.get("https://graph.facebook.com/me?access_token="+token)
     q=json.load(r.text)
