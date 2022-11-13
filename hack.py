@@ -24,10 +24,10 @@ class you:
    # print('2. EXIST')
     #opopot=input('input chose an option')
 #if opopot=='1':
-    os.system('clear')
-    rom()
+   # os.system('clear')
+  #  rom()
 #else:
-    rom()
+   # rom()
 def youo():
     
     print(logo)
